@@ -20,3 +20,6 @@ result = driver.find_element(By.XPATH, '//*[@id="content"]/div/section/form/ul/l
 assert result.text == 'Python For Beginners'
 
 driver.close()
+
+
+
